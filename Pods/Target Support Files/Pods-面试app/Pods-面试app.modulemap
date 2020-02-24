@@ -1,0 +1,6 @@
+framework module Pods___app {
+  umbrella header "Pods-面试app-umbrella.h"
+
+  export *
+  module * { export * }
+}

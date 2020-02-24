@@ -9,7 +9,22 @@
 import UIKit
 
 class AddressTableViewCell: UITableViewCell {
+    
+    typealias reSetAddress = ()->()
+    var reSetAddressBlock : reSetAddress!
 
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBOutlet weak var phoneLabel: UILabel!
+    
+    @IBOutlet weak var addressLabel: UILabel!
+    
+    @IBAction func reSetAddress(_ sender: Any) {
+        if let _ = reSetAddressBlock{
+            reSetAddressBlock();
+        }
+    }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -9,7 +9,9 @@
 import UIKit
 
 class editCell: UITableViewCell {
-
+    @IBOutlet weak var leftName: UILabel!
+    @IBOutlet weak var rightName: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

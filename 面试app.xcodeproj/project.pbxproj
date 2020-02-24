@@ -15,6 +15,18 @@
 		4524485624036B0300D79320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4524485424036B0300D79320 /* LaunchScreen.storyboard */; };
 		4524486124036B0300D79320 /* __appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4524486024036B0300D79320 /* __appTests.swift */; };
 		4524486C24036B0300D79320 /* __appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4524486B24036B0300D79320 /* __appUITests.swift */; };
+		4524487A24036F8A00D79320 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4524487924036F8A00D79320 /* BannerView.swift */; };
+		4524487C2403777B00D79320 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 4524487B2403777B00D79320 /* detail.png */; };
+		4524487E24037EE400D79320 /* SelectSizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4524487D24037EE400D79320 /* SelectSizeView.swift */; };
+		452448802403956C00D79320 /* SelectSizeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4524487F2403956C00D79320 /* SelectSizeCell.swift */; };
+		452448822403AD8500D79320 /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452448812403AD8500D79320 /* AddressViewController.swift */; };
+		452448852403AE0900D79320 /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452448832403AE0900D79320 /* AddressTableViewCell.swift */; };
+		452448862403AE0900D79320 /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452448842403AE0900D79320 /* AddressTableViewCell.xib */; };
+		452448892403B44000D79320 /* editCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452448872403B44000D79320 /* editCell.swift */; };
+		4524488A2403B44000D79320 /* editCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 452448882403B44000D79320 /* editCell.xib */; };
+		4524488C2403B45A00D79320 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4524488B2403B45A00D79320 /* EditViewController.swift */; };
+		45BD3E022403C19800080579 /* CityPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD3E012403C19800080579 /* CityPickerView.swift */; };
+		45BD3E042403C1D200080579 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 45BD3E032403C1D200080579 /* city.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CC9EAC8F1B5119E2BB2A733 /* Pods-面试app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-面试app.debug.xcconfig"; path = "Target Support Files/Pods-面试app/Pods-面试app.debug.xcconfig"; sourceTree = "<group>"; };
 		4524484624036B0200D79320 /* 面试app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "面试app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4524484924036B0200D79320 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4524484B24036B0200D79320 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,20 @@
 		4524486724036B0300D79320 /* 面试appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "面试appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4524486B24036B0300D79320 /* __appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __appUITests.swift; sourceTree = "<group>"; };
 		4524486D24036B0300D79320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4524487924036F8A00D79320 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		4524487B2403777B00D79320 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
+		4524487D24037EE400D79320 /* SelectSizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSizeView.swift; sourceTree = "<group>"; };
+		4524487F2403956C00D79320 /* SelectSizeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSizeCell.swift; sourceTree = "<group>"; };
+		452448812403AD8500D79320 /* AddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		452448832403AE0900D79320 /* AddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
+		452448842403AE0900D79320 /* AddressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressTableViewCell.xib; sourceTree = "<group>"; };
+		452448872403B44000D79320 /* editCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editCell.swift; sourceTree = "<group>"; };
+		452448882403B44000D79320 /* editCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = editCell.xib; sourceTree = "<group>"; };
+		4524488B2403B45A00D79320 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		45BD3E012403C19800080579 /* CityPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPickerView.swift; sourceTree = "<group>"; };
+		45BD3E032403C1D200080579 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
+		45D0125DDEF91F1B39E27828 /* Pods-面试app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-面试app.release.xcconfig"; path = "Target Support Files/Pods-面试app/Pods-面试app.release.xcconfig"; sourceTree = "<group>"; };
+		D473679A9D48D58021AFFABC /* Pods___app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___app.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		312441AAF737E2DB9EB23574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D473679A9D48D58021AFFABC /* Pods___app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4524483D24036B0200D79320 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				4524485F24036B0300D79320 /* 面试appTests */,
 				4524486A24036B0300D79320 /* 面试appUITests */,
 				4524484724036B0200D79320 /* Products */,
+				650F2B80B4AC7559947F462C /* Pods */,
+				312441AAF737E2DB9EB23574 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +136,21 @@
 		4524484824036B0200D79320 /* 面试app */ = {
 			isa = PBXGroup;
 			children = (
+				4524487B2403777B00D79320 /* detail.png */,
+				45BD3E032403C1D200080579 /* city.json */,
 				4524484924036B0200D79320 /* AppDelegate.swift */,
 				4524484B24036B0200D79320 /* SceneDelegate.swift */,
 				4524484D24036B0200D79320 /* ViewController.swift */,
+				4524487924036F8A00D79320 /* BannerView.swift */,
+				4524487D24037EE400D79320 /* SelectSizeView.swift */,
+				4524487F2403956C00D79320 /* SelectSizeCell.swift */,
+				45BD3E012403C19800080579 /* CityPickerView.swift */,
+				4524488B2403B45A00D79320 /* EditViewController.swift */,
+				452448872403B44000D79320 /* editCell.swift */,
+				452448882403B44000D79320 /* editCell.xib */,
+				452448812403AD8500D79320 /* AddressViewController.swift */,
+				452448832403AE0900D79320 /* AddressTableViewCell.swift */,
+				452448842403AE0900D79320 /* AddressTableViewCell.xib */,
 				4524484F24036B0200D79320 /* Main.storyboard */,
 				4524485224036B0300D79320 /* Assets.xcassets */,
 				4524485424036B0300D79320 /* LaunchScreen.storyboard */,
@@ -128,6 +177,15 @@
 			path = "面试appUITests";
 			sourceTree = "<group>";
 		};
+		650F2B80B4AC7559947F462C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CC9EAC8F1B5119E2BB2A733 /* Pods-面试app.debug.xcconfig */,
+				45D0125DDEF91F1B39E27828 /* Pods-面试app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4524487024036B0300D79320 /* Build configuration list for PBXNativeTarget "面试app" */;
 			buildPhases = (
+				506DFE5E264B71E5BB041727 /* [CP] Check Pods Manifest.lock */,
 				4524484224036B0200D79320 /* Sources */,
 				4524484324036B0200D79320 /* Frameworks */,
 				4524484424036B0200D79320 /* Resources */,
+				17DBDAB7F6562CBA85F78D82 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,7 +292,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4524487C2403777B00D79320 /* detail.png in Resources */,
+				452448862403AE0900D79320 /* AddressTableViewCell.xib in Resources */,
 				4524485624036B0300D79320 /* LaunchScreen.storyboard in Resources */,
+				4524488A2403B44000D79320 /* editCell.xib in Resources */,
+				45BD3E042403C1D200080579 /* city.json in Resources */,
 				4524485324036B0300D79320 /* Assets.xcassets in Resources */,
 				4524485124036B0200D79320 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +318,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17DBDAB7F6562CBA85F78D82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-面试app/Pods-面试app-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-面试app/Pods-面试app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		506DFE5E264B71E5BB041727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-面试app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4524484224036B0200D79320 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4524488C2403B45A00D79320 /* EditViewController.swift in Sources */,
+				452448802403956C00D79320 /* SelectSizeCell.swift in Sources */,
+				4524487A24036F8A00D79320 /* BannerView.swift in Sources */,
+				452448892403B44000D79320 /* editCell.swift in Sources */,
 				4524484E24036B0200D79320 /* ViewController.swift in Sources */,
 				4524484A24036B0200D79320 /* AppDelegate.swift in Sources */,
+				4524487E24037EE400D79320 /* SelectSizeView.swift in Sources */,
+				452448822403AD8500D79320 /* AddressViewController.swift in Sources */,
+				452448852403AE0900D79320 /* AddressTableViewCell.swift in Sources */,
+				45BD3E022403C19800080579 /* CityPickerView.swift in Sources */,
 				4524484C24036B0200D79320 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +551,7 @@
 		};
 		4524487124036B0300D79320 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CC9EAC8F1B5119E2BB2A733 /* Pods-面试app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +569,7 @@
 		};
 		4524487224036B0300D79320 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D0125DDEF91F1B39E27828 /* Pods-面试app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
